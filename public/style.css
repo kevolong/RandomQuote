@@ -1,0 +1,109 @@
+html {
+  font-size: 16px;
+}
+
+@media (max-width: 479px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+body {
+  font-family: "Oxygen", sans-serif;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 4em 1fr 4em;
+      grid-template-rows: 4em 1fr 4em;
+  padding: 1em;
+  min-height: 100vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header #logo {
+  width: 2.5em;
+}
+
+header #title {
+  color: white;
+  line-height: 1;
+  font-size: 1.5em;
+  font-weight: 300;
+}
+
+#quote-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-width: 300px;
+}
+
+#quote-box #quote {
+  font-size: 1.5em;
+  font-weight: 400;
+}
+
+@media (max-width: 479px) {
+  #quote-box #quote {
+    font-size: 1.25em;
+  }
+}
+
+#quote-box #author {
+  font-size: 1.25em;
+  font-weight: 300;
+}
+
+@media (max-width: 479px) {
+  #quote-box #author {
+    font-size: 1.15em;
+  }
+}
+
+#byKevin {
+  text-align: center;
+  font-size: 1em;
+  font-weight: 300;
+  color: white;
+}
+
+.color-change {
+  color: white;
+}
+
+.button {
+  border-radius: 6px;
+  padding: 12px 10px;
+}
+
+.button:hover {
+  -webkit-box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.24), 0 8px 25px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.24), 0 8px 25px 0 rgba(0, 0, 0, 0.19);
+}
+/*# sourceMappingURL=style.css.map */

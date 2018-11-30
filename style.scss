@@ -1,0 +1,81 @@
+html {
+  font-size: 16px;
+  @media (max-width: 479px) {
+    font-size: 14px;
+  }
+}
+
+body {
+  font-family: "Oxygen", sans-serif;
+  display: grid;
+  grid-template-rows: 4em 1fr 4em;
+  padding: 1em;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+//Logo and Title
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  #logo {
+    width: 2.5em;
+  }
+
+  #title {
+    color: white;
+    line-height: 1;
+    font-size: 1.5em;
+    font-weight: 300;
+  }
+}
+
+//Bootstrap container
+#quote-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 300px;
+
+  //Quote Text
+  #quote {
+    font-size: 1.5em;
+    font-weight: 400;
+    @media (max-width: 479px) {
+      font-size: 1.25em;
+    }
+  }
+  //Auhor Text
+  #author {
+    font-size: 1.25em;
+    font-weight: 300;
+    @media (max-width: 479px) {
+      font-size: 1.15em;
+    }
+  }
+}
+
+//Footer
+#byKevin {
+  text-align: center;
+  font-size: 1em;
+  font-weight: 300;
+  color: white;
+}
+
+.color-change {
+  color: white;
+}
+
+.button {
+  border-radius: 6px;
+  padding: 12px 10px;
+}
+
+.button:hover {
+  box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.24), 0 8px 25px 0 rgba(0, 0, 0, 0.19);
+}

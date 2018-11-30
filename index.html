@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oxygen:300,400,700" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"
+    />
+    <link rel="stylesheet" href="public/style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <title>Random Quote Machine</title>
+  </head>
+
+  <body>
+    <header>
+      <img id="logo" src="public/quote_logo_transparent.png" />
+      <h1 id="title">Random Quote Machine</h1>
+    </header>
+    <div id="quote-box" class="container">
+      <div class="row justify-content-center">
+        <div
+          class="jumbotron col-11 col-md-10 col-lg-8 col-xl-7 my-0 py-4 bg-white border border-secondary"
+        >
+          <div class="container mb-3 px-0">
+            <div><p id="quote" class="color-change"></p></div>
+            <div><p id="author" class="color-change text-right"></p></div>
+          </div>
+          <!-- End of Quote/Author Container -->
+
+          <!-- Button Container -->
+          <div class="container text-center mt-5 px-0">
+            <!-- New Quote Row -->
+            <div class="row justify-content-center">
+              <button
+                type="button"
+                autofocus
+                class="button bg-color-change"
+                style="color: white"
+                id="getQuote"
+              >
+                New Quote
+              </button>
+            </div>
+            <!-- Share Buttons Row -->
+            <div class="row justify-content-center mt-0 fa-3x">
+              <div class="col-xs-auto mx-1">
+                <a id="tweet" class="color-change" target="_blank">
+                  <i class="fab fa-twitter-square"></i>
+                </a>
+              </div>
+              <div class="col-xs-auto mx-1">
+                <a id="facebook" class="color-change" target="_blank">
+                  <i class="fab fa-facebook-square"></i>
+                </a>
+              </div>
+              <div class="col-xs-auto mx-1">
+                <a id="tumblr" class="color-change" target="_blank">
+                  <i class="fab fa-tumblr-square"></i>
+                </a>
+              </div>
+              <div class="col-xs-auto mx-1">
+                <a id="reddit" class="color-change" target="_blank">
+                  <i class="fab fa-reddit-square"></i>
+                </a>
+              </div>
+            </div>
+            <!-- End of Share Row -->
+          </div>
+          <!-- End of Button Container -->
+        </div>
+        <!-- End of Jumbotron -->
+      </div>
+      <!-- End of Jumbotron's Row -->
+    </div>
+    <!-- End of Contaner -->
+
+    <footer id="byKevin">
+      by <a href="https://kevinandrewlong.com" target="_blank" style="color: white">kevin long</a>
+    </footer>
+
+    <script src="public/app.js"></script>
+  </body>
+</html>
