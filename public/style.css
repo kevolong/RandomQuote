@@ -62,6 +62,7 @@ header #title {
       -ms-flex-align: center;
           align-items: center;
   min-width: 300px;
+  visibility: hidden;
 }
 
 #quote-box #quote {
@@ -95,6 +96,10 @@ header #title {
 
 .color-change {
   color: white;
+}
+
+#button-container {
+  visibility: hidden;
 }
 
 .button {

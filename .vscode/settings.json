@@ -1,5 +1,6 @@
 {
-    "prettier.printWidth": 100,
-    "prettier.eslintIntegration": true,
-    "prettier.jsxBracketSameLine": true
+  "prettier.printWidth": 100,
+  "prettier.eslintIntegration": true,
+  "prettier.jsxBracketSameLine": true,
+  "eslint.autoFixOnSave": true
 }

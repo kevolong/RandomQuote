@@ -40,6 +40,7 @@ header {
   justify-content: center;
   align-items: center;
   min-width: 300px;
+  visibility: hidden;
 
   //Quote Text
   #quote {
@@ -71,6 +72,9 @@ header {
   color: white;
 }
 
+#button-container {
+  visibility: hidden;
+}
 .button {
   border-radius: 6px;
   padding: 12px 10px;
